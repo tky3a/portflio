@@ -1,0 +1,118 @@
+<title>Youichi Hiraga's portfolio</title>
+<%= render 'portforio_header' %>
+  <!-- <link rel="icon" type="image/jpg" href="img/favicon.jpg"> -->
+<!-- <div class="l-wrapper"> -->
+  <a id="home"></a>
+  <!-- <div class="l-header">
+    <div class="l-constrained-large clearfix">
+      <div class="h-logo pull-left">
+        <p class="title">Takaya Endo's portfolio</p>
+      </div>
+      <div class="h-menu pull-right">
+        <ul class="h-menu clearfix">
+          <li class="pull-left">
+            <a href="#home" class="lsf-icon" title="home">Home</a>
+          </li>
+          <li class="pull-left">
+            <a href="#profile" class="lsf-icon" title="user">Profile</a>
+          </li>
+          <li class="pull-left">
+            <a href="#works" class="lsf-icon" title="code">Works</a>
+          </li>
+          <li class="pull-left">
+            <a href="#contact" class="lsf-icon" title="mail">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- トップメニュー -->
+  <div class="l-marketing">
+    <div class="marketing-container">
+      <h1>Takaya Endo Portfolio</h1>
+      <p>Ruby engineer.</p>
+      <div class="separator-white"></div>
+      <ul class="menu">
+        <li>
+          <a href="#home" class="lsf-icon" title="home">Home</a>
+        </li>
+        <li>
+          <a href="#profile" class="lsf-icon" title="user">Profile</a>
+        </li>
+        <li>
+          <a href="#works" class="lsf-icon" title="code">Works</a>
+        </li>
+        <li>
+          <a href="#contact" class="lsf-icon" title="mail">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="main">
+  <a id="profile"></a>
+  <div class="section l-constrained prof">
+    <h1 class="section-title lsf-icon" title="user">Profile</h1>
+    <div class="section-content clearfix">
+      <div class="profile-icon pull-left">
+        <%= image_tag 'prof.jpg', class: "icon-large" %>
+      </div>
+      <div class="profile-content pull-left">
+        <div class="subsection">
+          <h1>自己紹介</h1>
+          はじめまして。私は遠藤貴哉と申します。<br/>
+          24歳にでIT系企業に就職。 25歳〜エンジニアになる為、独学でRubyを学ぶ。 現在はWeb系のエンジニアをやっております。<br/>
+          言語はRubyを使用することが多いですが、稀にPHPも書いてます。<br/>
+        </div>
+        <div class="subsection">
+          <h1>よく使用する技術 &amp; ソフトウェア</h1>
+          <ul class="tech clearfix">
+            <li class="pull-left"><%= image_tag('ruby.png', size: "60x70")%></li>
+            <li class="pull-left"><%= image_tag('Ruby_on_Rails-logo.png', size: "75x70") %></li>
+            <li class="pull-left"><%= image_tag('laravel-logo.png',size: "88x70") %></li>
+            <li class="pull-left"><%= image_tag('jquery-logo.png' ,size: "270x80") %></li>
+            <li class="pull-left"><%= image_tag('mysql-logo.png' ,size: "270x80") %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a id="works"></a>
+  <div class="section l-constrained work">
+    <h1 class="section-title lsf-icon" title="code">Works</h1>
+    <div class="section-content clearfix">
+      <div class="subsection">
+        <p style="text-align:center;">今まで私が開発に携わったものです。<br/>画像をクリックすると詳細が表示されます</p>
+      </div>
+      <div class="subsection">
+        <!-- <ul class="products horizontal-list clearfix"> <li class="pull-left"><a href="javascript:void(0);" style="background-image:url('img/works/portfolio-thumb.png');" class="portfolio"></a></li> <li class="pull-left"><a href="javascript:void(0);"
+        style="background-image:url('img/works/dollars-thumb.png');" class="dollars"></a></li> <li class="pull-left"><a href="javascript:void(0);" style="background-image:url('img/works/prprprop-thumb.png');" class="prprprop"></a></li> <li
+        class="pull-left"><a href="javascript:void(0);" style="background-image:url('img/works/knknknit-thumb.png');" class="knknknit"></a></li> <li class="pull-left"><a href="javascript:void(0);" style="background-image:url('img/works/exc-thumb.png');"
+        class="exc"></a></li> </ul> -->
+      </div>
+    </div>
+  </div>
+
+<a id="contact"></a>
+<div class="section section-contact">
+  <div class="l-constrained">
+    <h1 class="section-title lsf-icon" title="mail">Contact</h1>
+    <div class="section-content clearfix">
+      <div class="subsection">
+        <input type="text" class="text-email" value="phper1500@gmail.com" readonly="readonly"/>
+      </div>
+      <div class="subsection">
+        <p style="font-size:30px;">or</p>
+      </div>
+      <div class="subsection">
+        <ul class="social">
+          <!-- <li><a href="https://www.facebook.com/musou1500" class="lsf facebook" target="_blank">facebook</a></li> -->
+          <!-- <li><a href="https://github.com/musou1500" class="lsf github" target="_blank">github</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,17 @@
+<h1>Itemテスト</h1>
+<table border="1" width="500" cellspacing="0" cellpadding="5" bordercolor="#333333">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>item_no</th>
+      <th>item_req_cnt</th>
+    </tr>
+  </thead>
+  <% @items.each do |item| %>
+    <tr>
+      <td><%= link_to item.id, item_test_path(item.id) %></td>
+      <td><%= item.item_no %></td>
+      <td><%= item.item_req_cnt %></td>
+    </tr>
+  <% end %>
+</table>

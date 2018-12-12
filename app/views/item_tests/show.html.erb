@@ -1,0 +1,21 @@
+<h1>アイテム詳細</h1>
+<table border="1" width="500" cellspacing="0" cellpadding="5" bordercolor="#333333">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>アイテムNo</th>
+      <th>アイテム回数</th>
+      <th>test</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @item.id %></td>
+      <td><%= @item.item_no %></td>
+      <td><%= select :id, :name, @item_req_cnt_array %><%=link_to "他のカウントへ", item_test_path() %></td>
+      <td>
+        <%= select :page, :name, @target_items.map{|t| [t.item_req_cnt, t.id]} %>
+      </td>
+    </tr>
+  </tbody>
+</table>
