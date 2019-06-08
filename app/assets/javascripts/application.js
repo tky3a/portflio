@@ -12,8 +12,11 @@
 //
 //= require jquery3
 //= require rails-ujs
-//= require bootstrap-sprockets
+//= require canvas/excanvas.js
 //= require popper
+//= require bootstrap-sprockets
+//= require iscroll/iscroll.js
+//= require drawer/drawer.min.js
 //= require activestorage
 //= require turbolinks
 //= require_tree .

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   # get 'item_tests/show'
   resources :ec_site_homes, only: [:index]
   root 'portforio_homes#index'
+  resources :sample_app, only: [:index]
 end

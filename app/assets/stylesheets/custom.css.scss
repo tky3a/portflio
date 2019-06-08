@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "drawer/drawer.min.css";
 
 html, body {
     height:100%;
@@ -9,6 +10,7 @@ body {
     color:#444;
 }
 
+// ここでセクションの幅を決めている
 .l-constrained {
     width:880px;
     margin: 0 auto;
@@ -318,4 +320,18 @@ img.icon-large {
 //
 // .product-info > li .description {
 //     width:80%;
+// }
+
+// // drawer サイドメニュー
+// li .side-content{
+//   float: left;
+// }
+//
+// li .drawer-menu-item {
+//   /* 縦に並べる */
+//   display: inline !important;
+//   float: left !important;
+//   // list-style-type: none;
+//   padding: 10px;
+//   color:red;
 // }

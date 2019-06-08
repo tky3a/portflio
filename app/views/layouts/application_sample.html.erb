@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>EndoPortforio</title>
+    <title><%#= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,7 +11,7 @@
 
   <body class="main-body">
     <div class="header">
-    <%= render 'layouts/header' %>
+    <%= render 'sample_app/header' %>
     </div>
     <%= yield %>
   </body>

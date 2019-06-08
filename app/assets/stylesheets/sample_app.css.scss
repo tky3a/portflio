@@ -1,0 +1,55 @@
+@import "bootstrap";
+@import "drawer/drawer.min.css";
+
+// canvasのヘッダー
+.canvas-header{
+  background-image: image-url("black.jpg");
+  background-repeat: no-repeat;
+}
+
+body {
+  // padding-top: 60px;
+}
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+.sample_header{
+  width: 1000px;
+}
+
+// li{
+//   float:left;
+// }
+
+// drawer サイドメニュー
+li .side-content{
+  float: left;
+}
+
+li .drawer-menu-item {
+  /* 縦に並べる */
+  display: inline !important;
+  float: left !important;
+  // list-style-type: none;
+  padding: 10px;
+  color:red;
+}
+
+// li {
+// width: 5em;
+// float: left;
+// }

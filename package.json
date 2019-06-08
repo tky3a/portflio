@@ -1,5 +1,9 @@
 {
   "name": "endo_portforio",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "iscroll": "^5.2.0",
+    "jquery": "^2.2.4",
+    "jquery-drawer": "^3.2.2"
+  }
 }
